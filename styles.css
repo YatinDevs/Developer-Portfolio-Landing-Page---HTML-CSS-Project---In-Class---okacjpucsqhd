@@ -123,19 +123,19 @@ body {
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: #fff;
 }
 
 .contact-me {
-  width: 50%;
+  width: 40%;
   height: 280px;
 
   background-color: olivedrab;
 }
 .about-me {
-  width: 50%;
+  width: 40%;
   height: 280px;
   background-color: maroon;
 }
@@ -163,11 +163,20 @@ body {
 /* #####################################  Media Section ############################################ */
 
 @media screen and (max-width: 1231px) {
+  .bottom-section {
+    justify-content: center;
+  }
   .black-box-section div h3 {
     font-size: 48px;
   }
   .black-box-section div span {
     font-size: 72px;
+  }
+  .about-me {
+    width: fit-content;
+  }
+  .contact-me {
+    width: fit-content;
   }
 }
 @media screen and (max-width: 786px) {
