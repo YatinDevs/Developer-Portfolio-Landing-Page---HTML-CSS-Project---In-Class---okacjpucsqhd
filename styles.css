@@ -130,13 +130,13 @@ body {
 
 .contact-me {
   width: 50%;
-  height: 250px;
+  height: 280px;
 
   background-color: olivedrab;
 }
 .about-me {
   width: 50%;
-  height: 250px;
+  height: 280px;
   background-color: maroon;
 }
 
@@ -189,8 +189,24 @@ body {
   .contact-me {
     width: fit-content;
   }
+  .about-me h1 {
+    font-size: 2rem;
+  }
+  .contact-me h1 {
+    font-size: 2rem;
+  }
 }
-
+@media screen and (max-width: 572px) {
+  .hero-section .hero-text {
+    font-size: 1rem;
+  }
+  .about-me h1 {
+    font-size: 1.5rem;
+  }
+  .contact-me h1 {
+    font-size: 1.5rem;
+  }
+}
 /* #####################################  Animations ############################################ */
 
 .hero-text:hover {
@@ -227,7 +243,7 @@ body {
   animation: slideInUp 2s ease-in-out;
 }
 .card2 {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 .card3 {
   animation: slideInUp3 2s ease-in-out;
